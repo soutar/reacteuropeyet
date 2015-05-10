@@ -1,5 +1,10 @@
 body {
+  display: flex;
+  flex: center center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
   background-color: rebeccapurple;
   color: white;
-  text-align: center;
 }

@@ -8,6 +8,6 @@
     "source_glob": "styles/**/*.scss"
   },
   "babel_opts": {
-    "stage": 2
+    "stage": 0
   }
 }

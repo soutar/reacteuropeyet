@@ -4,7 +4,7 @@
   "description": "",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Soutar/gulp-babelify-skeleton"
   },
   "keywords": [
     "gulp",
