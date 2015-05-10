@@ -1,0 +1,13 @@
+{
+  "source_directory": "src",
+  "build_directory": "build",
+  "js": {
+    "source_glob": "js/**/*.js"
+  },
+  "scss": {
+    "source_glob": "styles/**/*.scss"
+  },
+  "babel_opts": {
+    "stage": 2
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "gulp-babelify-skeleton",
+  "version": "0.0.1",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "gulp",
+    "babel",
+    "es6",
+    "es7",
+    "skeleton"
+  ],
+  "author": "John Soutar (@soutar)",
+  "license": "ISC",
+  "devDependencies": {
+    "babelify": "^6.0.2",
+    "browser-sync": "^2.7.1",
+    "gulp": "^3.8.11",
+    "gulp-babel": "^5.1.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-if": "^1.2.5",
+    "gulp-minify-css": "^1.1.1",
+    "gulp-sass": "^2.0.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0",
+    "minimist": "^1.1.1"
+  }
+}
