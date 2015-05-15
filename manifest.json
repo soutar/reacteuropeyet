@@ -1,0 +1,15 @@
+{
+    "name": "Is it React Europe yet?",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "short_name": "React Europe countdown",
+    "description": "",
+    "homepage_url": "http://github.com/soutar/",
+    "icons": {
+        "48": "icons/128_128.png",
+        "128": "icons/128_128.png"
+    },
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    }
+}

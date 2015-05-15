@@ -7,4 +7,37 @@ body {
   margin: 0;
   background-color: rebeccapurple;
   color: white;
+  font-family: sans-serif;
+}
+
+.countdown-timer {
+    font-size: 48px;
+}
+
+.countdown-timer__title {
+    text-align: center;
+}
+
+.countdown-timer__time-unit {
+    margin: 10px;
+}
+
+.countdown-timer__time-unit:after {
+    margin-left: 15px;
+}
+
+.countdown-timer__time-unit--days:after {
+    content: "days";
+}
+
+.countdown-timer__time-unit--hours:after {
+    content: "hours";
+}
+
+.countdown-timer__time-unit--minutes:after {
+    content: "minutes";
+}
+
+.countdown-timer__time-unit--seconds:after {
+    content: "seconds";
 }
