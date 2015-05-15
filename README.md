@@ -3,5 +3,6 @@
 ## Build from source
 
 ```sh
-$ npm install && gulp js & gulp scss
+$ npm install -g gulp && npm install 
+$ gulp js && gulp scss
 ```
