@@ -21,10 +21,7 @@ class CountdownTimer extends React.Component {
         var countdown = bem.block('countdown-timer');
         var title     = countdown.element('title');
         var timer     = countdown.element('timer');
-        var days      = countdown.element('time-unit').modifier('days');
-        var hours     = countdown.element('time-unit').modifier('hours');
-        var minutes   = countdown.element('time-unit').modifier('minutes');
-        var seconds   = countdown.element('time-unit').modifier('seconds');
+        var timeUnit  = countdown.element('time-unit');
 
         // Calculate time remaining
         var diff = this.props.countdownEnd.diff(this.state.currentDate);
@@ -34,10 +31,10 @@ class CountdownTimer extends React.Component {
             <div className={countdown}>
                 <h1 className={title}>{this.props.title}</h1>
                 <p className={timer}>
-                    <span className={days}>{Math.floor(duration.asDays())}</span>
-                    <span className={hours}>{duration.hours()}</span>
-                    <span className={minutes}>{duration.minutes()}</span>
-                    <span className={seconds}>{duration.seconds()}</span>
+                    <span className={timeUnit}>{Math.floor(duration.asDays())} days</span>
+                    <span className={timeUnit}>{duration.hours()} hours</span>
+                    <span className={timeUnit}>{duration.minutes()} minutes</span>
+                    <span className={timeUnit}>{duration.seconds()} seconds</span>
                 </p>
             </div>
         );
