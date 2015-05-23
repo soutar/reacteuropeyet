@@ -1,17 +1,17 @@
 body {
   display: flex;
-  flex: center center;
   align-items: center;
   justify-content: center;
   height: 100vh;
   margin: 0;
   background-color: #4656a0;
   color: white;
-  font-family: sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
 }
 
 .countdown-timer {
-    font-size: 48px;
+    font-size: 7vmin;
+    text-align: center;
 }
 
 .countdown-timer__title {
@@ -19,25 +19,9 @@ body {
 }
 
 .countdown-timer__time-unit {
-    margin: 10px;
+    margin: 1vmin;
 }
 
 .countdown-timer__time-unit:after {
     margin-left: 15px;
-}
-
-.countdown-timer__time-unit--days:after {
-    content: "days";
-}
-
-.countdown-timer__time-unit--hours:after {
-    content: "hours";
-}
-
-.countdown-timer__time-unit--minutes:after {
-    content: "minutes";
-}
-
-.countdown-timer__time-unit--seconds:after {
-    content: "seconds";
 }
