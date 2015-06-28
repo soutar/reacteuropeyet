@@ -41,4 +41,4 @@ class CountdownTimer extends React.Component {
     }
 }
 
-React.render(<CountdownTimer title="React Europe" countdownEnd={moment.parseZone('2015-07-01T08:30:00+02:00')} />, document.body);
+React.render(<CountdownTimer title="React Europe" countdownEnd={moment.parseZone('2015-07-02T08:30:00+02:00')} />, document.body);
